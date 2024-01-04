@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<robot>
+    
+    <!-- Base Link -->
+    <gazebo reference="base_link">
+        <material>Gazebo/Green</material>
+    </gazebo>
+
+
+    <!-- CASTER-->
+    <gazebo reference="caster">
+        <mu1>0.2</mu1>
+        <mu2>0.2</mu2>
+        <material>Gazebo/Grey</material>
+    </gazebo>
+    
+    <!--Right wheel-->
+    <gazebo reference="right_wheel">
+        <mu1>0.2</mu1>
+        <mu2>0.2</mu2>
+        <material> Gazebo/Grey</material>
+    </gazebo>
+
+    <!--Left wheel-->
+    <gazebo reference="left_wheel">
+        <mu1>0.2</mu1>
+        <mu2>0.2</mu2>
+        <material>Gazebo/Grey</material>
+    </gazebo>
+    
+    <!-- Camera -->
+    <gazebo reference ="camera">
+        <mu1>0.1</mu1>
+        <mu2>0.1</mu2>
+        <material>Gazebo/White</material>
+    </gazebo>
+
+    <!--Differential Drive Controller for 2-wheel-robot-->
+    <gazebo>
+        <plugin name="diff_drive" filename="libgazebo_ros_diff_drive.so">
+
+            <!-- Wheel Information -->
+            <left_joint>left_joint</left_joint>
+            <right_joint>right_joint</right_joint>
+            <wheel_separation>0.4</wheel_separation>
+            <wheel_diameter>0.2</wheel_diameter>
+
+
+            <!-- Limits -->
+            <max_wheel_torque>20</max_wheel_torque>
+            <max_wheel_acceleration>1.0</max_wheel_acceleration>
+
+            
+            <!-- Output -->
+            <odometry_frame>odom</odometry_frame>
+            <robot_base_frame>base_link</robot_base_frame>
+
+            <publish_odom>true</publish_odom>
+            <publish_odom_tf>true</publish_odom_tf>
+            <publish_wheel_tf>true</publish_wheel_tf>
+
+        </plugin>
+    </gazebo> 
+</robot>

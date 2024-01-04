@@ -1,0 +1,40 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/katos/ros2_ws/install/robot_loc_nav/lib/python3.10/site-packages",
+        "/home/katos/ros2_ws/install/sam_bot_description/lib/python3.10/site-packages",
+        "/home/katos/ros2_ws/install/rrbot/lib/python3.10/site-packages",
+        "/home/katos/ros2_ws/install/rr_bot/lib/python3.10/site-packages",
+        "/home/katos/ros2_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages",
+        "/home/katos/ros2_ws/install/rqt_controller_manager/lib/python3.10/site-packages",
+        "/home/katos/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages",
+        "/home/katos/ros2_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages",
+        "/home/katos/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages",
+        "/home/katos/ros2_ws/install/navigation_robot/lib/python3.10/site-packages",
+        "/home/katos/ros2_ws/install/my_robot_description/lib/python3.10/site-packages",
+        "/home/katos/ros2_ws/install/my_package/lib/python3.10/site-packages",
+        "/home/katos/ros2_ws/install/dd_robot/lib/python3.10/site-packages",
+        "/home/katos/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages",
+        "/home/katos/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/katos/ros2_ws/install/robot_loc_nav/lib/python3.10/site-packages",
+        "/home/katos/ros2_ws/install/sam_bot_description/lib/python3.10/site-packages",
+        "/home/katos/ros2_ws/install/rrbot/lib/python3.10/site-packages",
+        "/home/katos/ros2_ws/install/rr_bot/lib/python3.10/site-packages",
+        "/home/katos/ros2_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages",
+        "/home/katos/ros2_ws/install/rqt_controller_manager/lib/python3.10/site-packages",
+        "/home/katos/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages",
+        "/home/katos/ros2_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages",
+        "/home/katos/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages",
+        "/home/katos/ros2_ws/install/navigation_robot/lib/python3.10/site-packages",
+        "/home/katos/ros2_ws/install/my_robot_description/lib/python3.10/site-packages",
+        "/home/katos/ros2_ws/install/my_package/lib/python3.10/site-packages",
+        "/home/katos/ros2_ws/install/dd_robot/lib/python3.10/site-packages",
+        "/home/katos/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages",
+        "/home/katos/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
