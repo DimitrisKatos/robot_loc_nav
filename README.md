@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Create an autonomous differential drive robot.
 In this tutorial we will walk through some interest part of robotics. We will add sensors to our models such as lidar, a depht camera and an imu.
 We will use the nav2 package to navigate, to avoid obstacles and create paths. Also we will localize our robot and finally the robot will be able to create his own map. Finally the map will be saved and re-used.
@@ -281,6 +280,3 @@ Selesct the **2D Goal Pose** and give a desired position.
 ![Poll Mockup](./images/image10.png)
 
 After that the robot will create a path to this position and start moving. On his road to achieve his goal the robot is capable of avoiding all the obstacles even those he doesn't know that exist.
-=======
-## Localization and Navigation a differntial drive controller robot.
->>>>>>> 912d8b082a1017d51d0d8dc17ae171020cc94cea
